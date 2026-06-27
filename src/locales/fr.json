@@ -1,0 +1,153 @@
+{
+  "language": { "nativeName": "Français" },
+  "brand": {
+    "name": "SAFSEY IA",
+    "sidebarSubtitle": "Chat · Image · Vidéo",
+    "disclaimer": "SAFSEY IA peut commettre des erreurs. Vérifie les informations importantes."
+  },
+  "nav": {
+    "chat": "Chat IA",
+    "chatShort": "Chat",
+    "image": "Générateur d'Images",
+    "imageShort": "Images",
+    "video": "Générateur de Vidéo",
+    "videoShort": "Vidéo",
+    "avatarStudio": "Studio Avatar",
+    "avatarStudioShort": "Avatar"
+  },
+  "header": {
+    "chat": "Chat · Mode {{mode}}",
+    "image": "Générateur d'Images · Fooocus / SD WebUI local",
+    "video": "Générateur de Vidéo · API Cloud externe"
+  },
+  "status": { "checking": "Vérification…", "online": "Serveur en ligne", "offline": "Serveur hors ligne" },
+  "offline": "Serveur hors ligne · Lance {{command}} sur le port 5000",
+  "sidebar": {
+    "newConversation": "Nouvelle conversation",
+    "history": "Historique",
+    "empty": "Aucune conversation pour l'instant.",
+    "delete": "Supprimer la conversation",
+    "footerImage": "Image Service",
+    "footerImageMeta": "local GPU",
+    "footerVideo": "Video Service",
+    "footerVideoMeta": "Cloud API",
+    "close": "Fermer"
+  },
+  "welcome": {
+    "title": "SAFSEY IA",
+    "description": "Pose une question, bascule en mode {{fun}} pour un ton ironique, ou découvre les onglets {{image}} et {{video}}.",
+    "currentMode": "Mode actuel : {{mode}}"
+  },
+  "suggestions": {
+    "items": [
+      { "title": "Actualités IA", "prompt": "Quelles sont les dernières avancées majeures en intelligence artificielle ?" },
+      { "title": "Mode ironique", "prompt": "Explique-moi le machine learning avec un ton sarcastique." },
+      { "title": "Code & design", "prompt": "Génère un composant React avec Tailwind pour un bouton animé gradient." },
+      { "title": "Comparatif modèles", "prompt": "Compare Llama 3, Mistral et GPT-4 pour la génération de contenu créatif." }
+    ]
+  },
+  "mode": { "regular": "Régulier", "fun": "Fun", "funIronique": "Fun / Ironique" },
+  "chat": {
+    "placeholder": "Écris ton message à SAFSEY IA… (Entrée pour envoyer, Maj+Entrée = nouvelle ligne)",
+    "webSearchTitle": "Recherche web en temps réel",
+    "web": "Web",
+    "send": "Envoyer",
+    "generating": "Génération en cours",
+    "retry": "Réessayer",
+    "copy": "Copier",
+    "copied": "Copié",
+    "voice": "Voix",
+    "assistant": "SAFSEY",
+    "webSources": "{{count}} source web",
+    "webSources_plural": "{{count}} sources web",
+    "thinking": "SAFSEY réfléchit…",
+    "thinkingFun": "SAFSEY prépare une réponse piquante…",
+    "multimodalLimitReached": "Vous avez atteint votre limite quotidienne de 3 analyses gratuites. Abonnez-vous à un pack pour continuer à analyser vos contenus sans restriction.",
+    "multimodalRemaining": "{{remaining}} analyse(s) gratuite(s) restante(s) aujourd'hui"
+  },
+  "markdown": { "copyCode": "Copier le code", "copy": "Copier", "copied": "Copié" },
+  "billing": { "credits": "sec crédits", "videoCredit": "vidéo", "addCredits": "Recharger les crédits vidéo", "creditsDepleted": "Crédits vidéo épuisés", "buyCredits": "Recharger les crédits vidéo", "title": "Recharger mes minutes vidéo", "subtitle": "Choisis ton pack. 1 crédit = 1 seconde de génération vidéo avatar.", "loading": "Chargement des packs...", "loadError": "Impossible de charger les packs.", "openError": "Impossible d'ouvrir Lemon Squeezy." },
+  "image": {
+    "title": "Générateur d'Images",
+    "subtitle": "Fooocus / SD WebUI · GPU local",
+    "promptLabel": "Prompt de génération",
+    "promptPlaceholder": "Décris l'image que tu veux créer…",
+    "presets": [
+      "A futuristic neon city at night, rain reflections on the street, cinematic lighting",
+      "A peaceful Japanese garden in autumn, koi pond, maple trees, soft light",
+      "A robot explorer in an alien jungle, bioluminescent plants, golden hour",
+      "A cozy coffee shop interior, warm light, books on shelves, rainy window"
+    ],
+    "styleLabel": "Style artistique",
+    "styles": {
+      "realistic": "Réaliste",
+      "anime_2d": "Anime 2D",
+      "render_3d": "Render 3D",
+      "watercolor": "Aquarelle",
+      "oil_painting": "Huile",
+      "pixel_art": "Pixel Art",
+      "sketch": "Esquisse"
+    },
+    "ratioLabel": "Format / Ratio",
+    "ratios": { "square": "Carré", "landscape": "Paysage", "portrait": "Portrait", "photo": "Photo", "poster": "Affiche" },
+    "advancedShow": "Réglages avancés (steps / CFG)",
+    "advancedHide": "Masquer les réglages",
+    "negativePrompt": "Prompt négatif",
+    "steps": "Steps",
+    "cfgScale": "CFG Scale",
+    "generate": "Générer l'image",
+    "generating": "Génération en cours…",
+    "result": "Résultat",
+    "new": "Nouveau",
+    "copyUrl": "Copier URL",
+    "download": "Télécharger",
+    "noResult": "Aucune image générée",
+    "noResultHint": "Décris ta scène, choisis un style et clique sur \"Générer l'image\".",
+    "processingTitle": "Génération en cours…",
+    "processingHint": "Fooocus traite l'image sur ton GPU NVIDIA. Cela prend généralement 10 à 40 secondes.",
+    "seed": "Seed",
+    "model": "Modèle",
+    "format": "Format",
+    "emptyPrompt": "Saisis un prompt avant de générer.",
+    "error": "La génération a échoué."
+  },
+  "video": {
+    "title": "Générateur de Vidéo",
+    "subtitle": "API Cloud externe · Aucun GPU local requis",
+    "promptLabel": "Prompt de génération",
+    "promptPlaceholder": "Décris la scène vidéo : mouvement caméra, ambiance, style, sujet…",
+    "presets": [
+      "A futuristic neon cityscape at night with flying cars, cinematic slow pan, rain effects",
+      "A robot walking through a lush alien jungle, bioluminescent plants, golden hour lighting",
+      "A cozy café in Paris, rain on the window, warm bokeh lights, slow dolly shot",
+      "An astronaut floating in space near a colorful nebula, epic wide shot"
+    ],
+    "formatLabel": "Format vidéo",
+    "ratios": { "youtube": "YouTube", "tiktok": "TikTok / Shorts", "instagram": "Instagram", "horizontal": "Horizontal", "vertical": "Vertical", "square": "Carré" },
+    "durationLabel": "Durée du clip",
+    "duration5": "5 secondes",
+    "duration10": "10 secondes",
+    "duration30": "30 secondes",
+    "duration60": "1 minute",
+    "duration300": "5 minutes",
+    "durationLocked": "Durée réservée aux utilisateurs ayant acheté des crédits",
+    "freeDurationNotice": "Version gratuite : les 3 essais sont limités aux vidéos de 5 secondes.",
+    "freeDurationLimit": "La version gratuite est limitée aux vidéos de 5 secondes. Achetez des crédits pour débloquer les durées supérieures.",
+    "freeTrialExhausted": "Vous avez épuisé vos crédits gratuits. Rechargez votre compte pour continuer à créer et analyser vos contenus.",
+    "cloudNotice": "Ce service utilise une API Cloud externe (ex. Luma, Runway, Replicate). Aucun GPU local n'est nécessaire. Vérifie ta clé API dans le fichier .env.",
+    "generate": "Générer la vidéo",
+    "generating": "Génération en cours…",
+    "result": "Résultat",
+    "new": "Nouveau",
+    "download": "Télécharger",
+    "noResult": "Aucune vidéo générée",
+    "noResultHint": "Décris ta scène vidéo, choisis le format et la durée, puis clique sur \"Générer la vidéo\" pour appeler l'API Cloud.",
+    "processingTitle": "Génération en cours…",
+    "processingHint": "L'API Cloud génère ta vidéo. Cela peut prendre de 30 secondes à plusieurs minutes.",
+    "duration": "Durée",
+    "format": "Format",
+    "jobId": "Job ID",
+    "emptyPrompt": "Saisis un prompt avant de générer.",
+    "error": "La génération vidéo a échoué."
+  }
+}
